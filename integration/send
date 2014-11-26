@@ -1,0 +1,7 @@
+  #!/bin/bash
+
+TARGET_FILE=$(pwd)/${1}
+echo $TARGET_FILE
+
+nc -w1 dockerhost 28777 < $TARGET_FILE
+

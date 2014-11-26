@@ -45,5 +45,8 @@
   "directories": {
     "doc": "docs",
     "test": "test"
+  },
+  "dependencies": {
+    "elastics": "^0.3.0"
   }
 }
