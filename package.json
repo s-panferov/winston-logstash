@@ -48,5 +48,8 @@
   "directories": {
     "doc": "docs",
     "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0"
   }
 }
